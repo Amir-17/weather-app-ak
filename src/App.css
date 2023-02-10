@@ -1,0 +1,25 @@
+.display-wrapper {
+  padding: 10px;
+}
+
+.picture-container {
+  position: relative;
+}
+.picture-container:hover .hovertool {
+  display: block;
+}
+.hovertool {
+  display: none;
+  position: absolute;
+  bottom: -50px;
+  left: 10px;
+  background-color: lightblue;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.condition-picture {
+  width: 35px;
+  height: 35px;
+}
